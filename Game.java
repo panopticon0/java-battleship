@@ -174,7 +174,7 @@ public class Game {
             while (!placed) {
                 //repeats while the ship has not been placed
                 int x = (int)(Math.random() * 10);
-                int y = (int)(Math.random() * 10);\
+                int y = (int)(Math.random() * 10);
                 //random coordinates between 0-9
                 boolean exists = false;
                 if (x < tempBoard.length - counts[i]) {
